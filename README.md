@@ -64,3 +64,47 @@ A prototype integration design covering:
 The repository also includes a system design for publishing a scheduled Reel through the Meta Graph API.
 
 This is a design and prototype portfolio. It does not represent a production deployment for an external customer.
+
+---
+
+## Portfolio Contents
+
+### OAuth 2.0 Integration Service
+Location: `/oauth-integration`
+
+Topics covered:
+
+- Authorization Code Flow
+- Secure token storage
+- Token refresh
+- Token expiration
+- Reauthorization
+- Retry strategy
+
+---
+
+### Structured LLM Prompt Engineering
+Location: `/structured-output-prompt`
+
+Topics covered:
+
+- JSON schema
+- Prompt engineering
+- Structured outputs
+- Validation
+- Reliability
+
+---
+
+### Instagram Reel Publishing System Design
+Location: `/meta-reel-design`
+
+Topics covered:
+
+- Meta Graph API
+- Edge Functions
+- Scheduling
+- Retry strategy
+- Authentication
+- Rate limits
+- Error handling
